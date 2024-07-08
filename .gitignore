@@ -25,3 +25,5 @@ dist-ssr
 
 # build report file
 report.html
+
+config/api.js
