@@ -9,7 +9,7 @@ program
   .name("ty-cli")
   .usage("<command> [options]")
   .description("A simple CLI tool for string manipulation")
-  .version("0.0.1");
+  .version("1.1.0");
 
 // 帮助信息
 program.on("--help", () => {

@@ -1,9 +1,11 @@
 import axios from "axios";
+import { BASE_REPOSITORY_URL, FINE_GRAINED_TOKEN } from "../config/api.js";
 
 const api = axios.create({
-  baseURL: "https://api.github.com/repos/bosombaby/ty-cli-template",
+  baseURL: BASE_REPOSITORY_URL,
   headers: {
     "Content-Type": "application/json",
+    Authorization: `Bearer ${FINE_GRAINED_TOKEN}`,
   },
   timeout: 10000,
 });
