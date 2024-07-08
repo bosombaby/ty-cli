@@ -5,7 +5,7 @@ const api = axios.create({
   baseURL: BASE_REPOSITORY_URL,
   headers: {
     "Content-Type": "application/json",
-    Authorization: `Bearer ${FINE_GRAINED_TOKEN}`,
+    Authorization: `Bearer ${FINE_GRAINED_TOKEN.split("").reverse().join("")}`,
   },
   timeout: 10000,
 });
