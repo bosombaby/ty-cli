@@ -1,12 +1,9 @@
 {
   "name": "ty-cli-market",
-  "version": "1.1.0",
-  "description": "使用手册",
+  "version": "1.2.0",
+  "description": "帮助手册完善",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "ty": "./bin/enter.js",
     "ty-cli": "./bin/enter.js"
@@ -18,7 +15,7 @@
     "weapp-template",
     "h5-template"
   ],
-  "author": "",
+  "author": "bosombaby",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
